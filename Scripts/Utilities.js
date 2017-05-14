@@ -8,8 +8,8 @@ function openProject(evt, projectName, companyNum) {
     }
     tablinks = document.getElementsByClassName(tabLink);
     for (i = 0; i < x.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" w3-teal", "");
+        tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
     }
     document.getElementById(projectName).style.display = "block";
-    evt.currentTarget.className += " w3-teal";
+    evt.currentTarget.className += " w3-dark-grey";
 }
